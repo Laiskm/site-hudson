@@ -314,6 +314,15 @@ a {
     align-items: center; 
     text-align: center;
 }
+    .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+    .btn-card {
+    margin-top: auto;
+}
 
 .card:hover {
     transform: translateY(-5px);
