@@ -96,23 +96,24 @@ a {
 }
 
 .btn-card:hover {
-    background-color: var(--accent-color);
-    transform: translateY(-1px);
+    background-color: var(#25D366);
+    transform: scale(1.1);
 }
 
 /* Botão Flutuante WhatsApp */
 .whatsapp-float {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: var(--accent-color);
+    bottom: 20px;
+    right: 20px;
+    background-color: var(#25D366);
+    color: white
     width: 60px;
     height: 60px;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     z-index: 1000;
     transition: var(--transition);
 }
