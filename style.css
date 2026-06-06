@@ -109,13 +109,13 @@ a {
     color: white
     width: 60px;
     height: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     z-index: 1000;
-    transition: var(--transition);
+    text-decoration: none;
 }
 
 .whatsapp-float:hover {
