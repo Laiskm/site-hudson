@@ -307,7 +307,12 @@ a {
     flex-direction: column;
     position: relative;
     margin-top: 60px;
-    padding-top: 55px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    align-items: center; 
+    text-align: center;
 }
 
 .card:hover {
