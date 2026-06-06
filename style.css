@@ -322,6 +322,11 @@ a {
 }
     .btn-card {
     margin-top: auto;
+    align-self: stretch;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    display: block;
 }
 
 .card:hover {
