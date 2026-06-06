@@ -105,8 +105,8 @@ a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: var(#25D366);
-    color: white
+    background-color: var(#25D366) !important;
+    color: white!important;
     width: 60px;
     height: 60px;
     border-radius: 50%;
